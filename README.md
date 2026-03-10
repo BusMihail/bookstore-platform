@@ -4,8 +4,8 @@ A full stack Books & Media ecommerce application built with **Spring Boot** and 
 
 ![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-green?style=flat-square&logo=springboot)
-![Angular](https://img.shields.io/badge/Angular-17-red?style=flat-square&logo=angular)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3-blue?style=flat-square&logo=tailwindcss)
+![Angular](https://img.shields.io/badge/Angular-21-red?style=flat-square&logo=angular)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-blue?style=flat-square&logo=tailwindcss)
 
 ---
 
@@ -36,7 +36,7 @@ A full stack Books & Media ecommerce application built with **Spring Boot** and 
 ### Frontend
 | Technology | Purpose |
 |---|---|
-| Angular 17 | Frontend framework |
+| Angular 21 | Frontend framework |
 | Tailwind CSS | Styling |
 | RxJS | Reactive programming |
 | Angular Router | Client-side routing |
@@ -48,7 +48,7 @@ A full stack Books & Media ecommerce application built with **Spring Boot** and 
 ### Prerequisites
 
 - Java 21
-- Node.js 20+ and npm
+- Node.js 24+ and npm
 - Angular CLI (`npm install -g @angular/cli`)
 
 ---
@@ -180,7 +180,7 @@ bookstore-platform/
 ## 🛠️ Development Notes
 
 - The H2 database resets on every restart (`ddl-auto=create-drop`) — this is intentional for development
-- The `DataSeeder` automatically loads sample books on first startup
+- The `DataSeeder` automatically loads 8 sample books on first startup
 - Payment is **simulated** — no real Stripe integration
 
 ---
